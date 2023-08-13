@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box-hover:hover img{
+ stroke: none;
+ background-color: deepskyblue;
+ transition: background-color 200ms;
+}
+
+.box-hover:hover .svg-stroke {
+    stroke: none;
+}
